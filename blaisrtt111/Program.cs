@@ -21,5 +21,18 @@
 //double y = Math.Exp(7 * x);
 //Console.WriteLine($"y={y:f2}");
 
-fsdfs
+try
+{
+    Console.WriteLine("Введите натуральное число n (n > 99):");
+    int n = int.Parse(Console.ReadLine());
+    int a = n % 100 / 10;
+    int b = n / 100;
+    Console.WriteLine($"a) Число десятков: {a}");
+    Console.WriteLine($"б) Число сотен: {b}");
+}
+catch (Exception ex)
+{
+    Console.ReadLine();
+
+}
 
