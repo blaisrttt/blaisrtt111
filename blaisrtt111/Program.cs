@@ -21,5 +21,5 @@
 //double y = Math.Exp(7 * x);
 //Console.WriteLine($"y={y:f2}");
 
-fsdfs
+int n = int.Parse(Console.ReadLine());
 
