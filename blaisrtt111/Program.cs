@@ -21,6 +21,7 @@
 //double y = Math.Exp(7 * x);
 //Console.WriteLine($"y={y:f2}");
 
+
 try
 {
     Console.WriteLine("Введите натуральное число n (n > 99):");
