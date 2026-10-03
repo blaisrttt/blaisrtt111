@@ -7,10 +7,9 @@
     Console.WriteLine($"Расстояние: {S:F2}");
     Console.WriteLine($"Скорость: {V:F2}");
 }
-catch (Exception ex)
+catch (Exception a)
 {
-    Console.WriteLine("Ошибка: " + ex.Message);
+    Console.WriteLine(a.Message);
 }
-
 
 

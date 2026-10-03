@@ -11,7 +11,7 @@
     }
     Console.WriteLine($"Факториап {s}");
 }
-catch (Exception e)
+catch (Exception a)
 {
-    Console.WriteLine(e.Message);
+    Console.WriteLine(a.Message);
 }
