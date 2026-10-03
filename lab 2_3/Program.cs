@@ -109,6 +109,20 @@ using System.Linq.Expressions;
 //    Console.WriteLine(e.Message);
 //}
 
+
+//Console.Write("Введите n:");
+//int n = int.Parse(Console.ReadLine());
+//int i = 0; //счетчик цикла
+//int s = 0;//сумма чисел
+//while (i < n)
+//{
+//    s = s + i;
+//    i= i + 1;
+//}
+//Console.WriteLine($"Сумма чисел от 1 до {n}: {s}");
+
+
+
 //вариант 20
 try
 {
