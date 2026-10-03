@@ -38,3 +38,4 @@ catch (Exception a)
     Console.WriteLine(a.Message);
 }
 
+//3.30 высокий

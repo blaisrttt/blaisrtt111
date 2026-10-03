@@ -12,4 +12,4 @@ catch (Exception a)
     Console.WriteLine(a.Message);
 }
 
-
+//11 варик высокий

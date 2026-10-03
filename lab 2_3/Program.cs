@@ -155,3 +155,4 @@ catch (Exception e)
 {
     Console.WriteLine(e.Message);
 }
+//средний на 5 варик 20

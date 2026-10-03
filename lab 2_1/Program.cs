@@ -17,3 +17,4 @@ catch (Exception a)
 {
     Console.WriteLine(a.Message);
 }
+//высокий уровень вариант 20
