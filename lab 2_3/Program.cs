@@ -120,33 +120,21 @@ try
     switch (n)
     {
         case 1:
-            {
                 a = 0.8; b = 2.4; f = Math.Exp(1.5 * a * x);
-            }
             break;
         case 2:
-            {
                 a = 1.2; b = 4.2; f = Math.Exp(2 * a * x);
-            }
             break;
         case 3:
-            {
                 a = 3.4; b = 8.1; f = Math.Exp(3 * a * x);
-            }
             break;
     }
     if (x <= a)
-    {
         y = Math.Exp(a * x) + f * Math.Pow(Math.Cos(b * x), 2);
-    }
     else if (x > a && x <= b * b)
-    {
         y = a + Math.Pow(Math.Cos(b * x), 2) - Math.Log(f * x);
-    }
     else
-    {
         y = Math.Pow(Math.Cos(a + b * x), 2);
-    }
     Console.WriteLine($"y = {y:F2}");
 }
 catch (Exception e)
