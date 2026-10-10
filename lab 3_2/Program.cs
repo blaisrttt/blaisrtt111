@@ -16,3 +16,4 @@ catch (Exception a)
 {
     Console.WriteLine(a.Message);
 }
+//вариант 18 средний уровень
