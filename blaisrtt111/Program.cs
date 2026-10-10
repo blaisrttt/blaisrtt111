@@ -33,7 +33,9 @@ try
     Console.WriteLine($"а) Число десятков: {a}");
     Console.WriteLine($"б) Число сотен: {b}");
 }
-catch (Exception ex)
+catch (Exception a)
 {
-    Console.ReadLine();
+    Console.WriteLine(a.Message);
 }
+
+//3.30 высокий

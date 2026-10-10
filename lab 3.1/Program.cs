@@ -64,9 +64,9 @@ try
     }
     Console.WriteLine("Месяцев: " + months);
 }
-catch (Exception e)
+catch (Exception a)
 {
-    Console.WriteLine(e.Message);
+    Console.WriteLine(a.Message);
 }
 
 //высокий уровень вариант 18
