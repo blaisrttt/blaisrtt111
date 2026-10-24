@@ -22,3 +22,4 @@ catch (Exception e)
 {
     Console.WriteLine(e.Message);
 }
+//высокий уровень 18 варик
