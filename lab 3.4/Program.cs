@@ -29,3 +29,4 @@ catch (Exception a)
 {
     Console.WriteLine(a.Message);
 }
+//выс ур 18 вар
