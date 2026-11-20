@@ -50,3 +50,4 @@ catch (Exception a)
 {
     Console.WriteLine(a.Message);
 }
+//средний или высокий 16 вариант
