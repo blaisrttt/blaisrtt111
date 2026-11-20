@@ -42,3 +42,4 @@ struct Hockey
         Console.WriteLine($"Фамилия:{name}, возраст:{age}, игр:{games}, шайб:{goals}");
     }
 }
+//базовый 16 варик
