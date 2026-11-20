@@ -12,3 +12,5 @@ for (int i = 0; i < 5; i++)
     Console.WriteLine();
 }
 Console.WriteLine($"Сумма элементов в [-2;3]: {OurClassLibrary.SumInRange(matrix)}");
+
+//средний 20вар
