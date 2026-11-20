@@ -21,18 +21,15 @@ for (int i = 0; i < players.Length; i++)
 }
 Console.WriteLine($"Средний возраст:{sum / players.Length:F2}");
 Console.WriteLine();
-
 for (int i = 0; i < players.Length; i++)
 {
     if (players[i].group == AgeGroup.Young) players[i].Print();
 }
-
 enum AgeGroup
 {
     Young,
     Adult
 }
-
 struct Hockey
 {
     public string name;
